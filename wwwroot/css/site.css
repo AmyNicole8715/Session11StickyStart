@@ -56,11 +56,13 @@ button.accept-policy {
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-image: "https://i.gifer.com/VIWr.gif" !important;
 }
 .footer {
   position: absolute;
@@ -69,3 +71,23 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+.note {
+  min-height: 250px;
+  width: 250px;
+  font-size: 1em;
+  position: relative;
+  box-shadow: 0 0 3px black;
+  line-height: 1em;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+.paper
+ {
+     height: 250px;
+     width: 250px;
+     background-color: rgb(253, 255, 151);
+     font-size: 2em;
+     box-shadow: 0 0 2px black;
+     
+ }
