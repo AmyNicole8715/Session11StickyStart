@@ -8,7 +8,7 @@ using stickynotes.Data;
 namespace stickynotes.Migrations
 {
     [DbContext(typeof(StickyContext))]
-    [Migration("20201119165901_InitialCreate")]
+    [Migration("20201119191647_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
